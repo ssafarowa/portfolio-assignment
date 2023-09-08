@@ -1,11 +1,3 @@
-/**
-* Template Name: Kelly
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -20,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #51cdbe;
+  color: #795548;
   text-decoration: none;
 }
 
@@ -35,6 +27,22 @@ h6 {
 
 #main {
   margin-top: 50px;
+}
+
+#hero h1,
+#hero h2 {
+  color: #222222;
+}
+#hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+#hero h2 {
+  margin: 10px 0 0 0;
+  font-size: 22px;
 }
 
 @media (max-width: 992px) {
@@ -90,7 +98,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #34b7a7;
+  background: #795548;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -104,7 +112,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #49cbbb;
+  background: #6d4c41;
   color: #fff;
 }
 
@@ -164,7 +172,7 @@ h6 {
 }
 
 .header-social-links a:hover {
-  color: #34b7a7;
+  color: #795548;
 }
 
 /*--------------------------------------------------------------
@@ -211,21 +219,21 @@ h6 {
   margin-left: 5px;
 }
 
-.navbar>ul>li>a:before {
+.navbar > ul > li > a:before {
   content: "";
   position: absolute;
   width: 0;
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #795548;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
 }
 
 .navbar a:hover:before,
-.navbar li:hover>a:before,
+.navbar li:hover > a:before,
 .navbar .active:before {
   visibility: visible;
   width: 25px;
@@ -234,7 +242,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #222222;
 }
 
@@ -272,11 +280,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #34b7a7;
+.navbar .dropdown ul li:hover > a {
+  color: #795548;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -288,7 +296,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -300,7 +308,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -372,8 +380,8 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #34b7a7;
+.navbar-mobile li:hover > a {
+  color: #795548;
 }
 
 .navbar-mobile .getstarted,
@@ -407,11 +415,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #34b7a7;
+.navbar-mobile .dropdown ul li:hover > a {
+  color: #795548;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -436,18 +444,13 @@ h6 {
   }
 }
 
-#hero h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #222222;
-}
-
-#hero h2 {
-  color: #6f6f6f;
-  margin: 10px 0 0 0;
-  font-size: 22px;
+@media (min-width: 993px) {
+  #hero h1 {
+    color: #efebe9;
+  }
+  #hero h2 {
+    color: #d7ccc8;
+  }
 }
 
 #hero .btn-about {
@@ -462,11 +465,11 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #34b7a7;
+  background: #5d4037;
 }
 
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #4e342e;
 }
 
 @media (min-width: 1024px) {
@@ -541,7 +544,8 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-1.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/bg-1.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -1081,7 +1085,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1089,7 +1096,10 @@ section {
   border: 1px solid #34b7a7;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #34b7a7;
 }
 
@@ -1112,7 +1122,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1245,7 +1255,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #34b7a7;
   border: 0;
   padding: 10px 30px 12px 30px;
@@ -1254,7 +1264,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #3dc8b7;
 }
 
@@ -1285,5 +1295,6 @@ section {
 }
 
 #footer .credits a {
-  color: #34b7a7;
+  color: #5d4037;
+  font-weight: bold;
 }
