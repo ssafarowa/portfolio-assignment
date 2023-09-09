@@ -32,7 +32,8 @@ h6 {
 #about,
 #resume,
 #skills,
-#contact {
+#contact,
+#portfolio {
   padding-top: 90px;
 }
 
@@ -757,7 +758,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #34b7a7;
+  background: #6d4c41;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -834,7 +835,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #78d9cd;
+  color: #6d4c41;
 }
 
 .portfolio .portfolio-wrap:hover::before {
