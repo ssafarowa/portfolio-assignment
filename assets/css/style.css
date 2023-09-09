@@ -31,7 +31,8 @@ h6 {
 
 #about,
 #resume,
-#skills {
+#skills,
+#contact {
   padding-top: 90px;
 }
 
@@ -929,11 +930,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #34b7a7;
+  color: #6d4c41;
   float: left;
   width: 44px;
   height: 44px;
-  background: #effbf9;
+  background: #efebe9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -964,7 +965,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #34b7a7;
+  background: #5d4037;
   color: #fff;
 }
 
@@ -1035,7 +1036,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #34b7a7;
+  background: #6d4c41;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1044,7 +1045,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #3dc8b7;
+  background: #5d4037;
 }
 
 @keyframes animate-loading {
